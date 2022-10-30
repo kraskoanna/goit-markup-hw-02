@@ -15,20 +15,17 @@ header {
 .logo {
   font-family: 'Raleway', sans-serif;
   color: #000000;
-  font-weight: 700;
   font-size: 26px;
   line-height: 1,1923%;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
 .link {
-  font-weight: 700;
   font-size: 26px;
   line-height: 1,1923%;
   letter-spacing: 0.03em;
 }
 .logo-header {
-  font-weight: 700;
   font-size: 26px;
   line-height: 1,1923%;
   letter-spacing: 0.03em;
@@ -43,7 +40,6 @@ header {
 }
 
 .header-nav-link {
-  font-weight: 500;
   font-size: 14px;
   line-height: 1,1428%;
   letter-spacing: 0.02em;
@@ -55,7 +51,6 @@ header {
   color: #2196F3;
 }
 .auth-nav {
-  font-weight: 500;
   font-size: 14px;
   line-height: 1,1428%;
   letter-spacing: 0.02em;
@@ -75,7 +70,6 @@ header {
 
 
 .promo {
-  font-weight: 900;
   font-size: 44px;
   line-height: 1,3636%;
   text-align: center;
@@ -103,12 +97,17 @@ header {
   letter-spacing: 0.06em;
 }
 
+.btn:hover,
+.btn:focus {
+  background: #188CE8;;
+  color: #FFFFFF;
+}
+
 
 /*-------Особливості------*/
 
 
 .features{
-  font-weight: 700;
   font-size: 14px;
   line-height: 1,1428%;
   letter-spacing: 0.03em;
@@ -116,7 +115,6 @@ header {
 }
 
 .features-list{
-  font-weight: 400;
   font-size: 14px;
   line-height: 1,7142%;
   letter-spacing: 0.03em;
@@ -128,11 +126,28 @@ header {
 
 
 .title {
-  font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1,1666%;
 text-align: center;
 letter-spacing: 0.03em;
 background-color: ;
 color: #212121;
+}
+
+
+/*---------Команда--------*/
+
+
+.title-team {
+  font-size: 36px;
+line-height: 1,1666%;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.team-list {
+  font-size: 16px;
+line-height: 1,1875%;
+text-align: center;
+letter-spacing: 0.03em;
 }
