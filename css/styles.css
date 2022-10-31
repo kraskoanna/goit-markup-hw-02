@@ -46,6 +46,11 @@ header {
   color: #212121;
   text-decoration: none;
 }
+
+/*---------------Активне поле-------------------------*/
+.current {
+  color: #2196F3;
+}
 .header-nav-link:hover,
 .header-nav-link:focus{
   color: #2196F3;
@@ -151,3 +156,15 @@ line-height: 1,1875%;
 text-align: center;
 letter-spacing: 0.03em;
 }
+
+.list-p {
+  font-size: 16px;
+  line-height: 1,1875%;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+
+/*----------------Футер---------------------------*/
+
+
