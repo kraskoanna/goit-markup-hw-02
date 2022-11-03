@@ -57,6 +57,7 @@ body {
   text-decoration: none;
 }
 .auth-nav-link {
+  font-weight: 500;
   color: #757575;
   text-decoration: none;
 }
@@ -85,10 +86,7 @@ body {
   color: #FFFFFF;
 }
 .btn {
-  width: 216px;
-  height: 50px;
-  left: 692px;
-  top: 430px;
+
   background: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -131,6 +129,7 @@ body {
 
 
 .title {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.1666;
   text-align: center;
@@ -244,12 +243,14 @@ body {
 
 
 .projects-title {
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;  
 }
 
 .projects-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.8750;
   color: #757575;
