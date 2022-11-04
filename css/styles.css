@@ -47,6 +47,7 @@ body {
 
 .list {
   list-style: none;
+  text-decoration: none;
 }
 
 .header-nav-link {
@@ -262,6 +263,7 @@ color: var(--accent-color);
 /*------------------------------Проекти-------------------------------------------*/
 
 
+
 .projects-title {
   color: var(--title-text-color);
   font-size: 18px;
@@ -274,3 +276,4 @@ color: var(--accent-color);
   line-height: 1.8750;
   color: var(--primary-text-color);
 }
+
